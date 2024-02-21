@@ -11,7 +11,7 @@ int main(void)
     printf("Enter the second number: \n");
     scanf("%d", &num2);
     printf("Enter operator: \n");
-    scanf("%c", &op);
+    scanf(" %c", &op);
 
     switch (op)
     {
