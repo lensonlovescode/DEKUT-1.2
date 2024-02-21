@@ -6,12 +6,12 @@ int main(void)
     char op;
 
 
-    printf("Enter the first number: \n");
+    printf("Enter the first number: ");
     scanf("%d", &num1);
-    printf("Enter the second number: \n");
+    printf("Enter the second number: ");
     scanf("%d", &num2);
-    printf("Enter operator: \n");
-    scanf(" %c", &op);
+    printf("Enter operator: ");
+    scanf("%c", &op);
 
     switch (op)
     {
